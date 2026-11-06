@@ -29,11 +29,13 @@ class FactExample(object):
 class EntailmentModel(object):
     def __init__(self, model, tokenizer, cuda=False):
         self.model = model
+        self.model.eval()
         self.tokenizer = tokenizer
         self.cuda = cuda
 
     def check_entailment(self, premise: str, hypothesis: str):
         with torch.no_grad():
+            
             # Tokenize the premise and hypothesis
             inputs = self.tokenizer(premise, hypothesis, return_tensors='pt', truncation=True, padding=True)
             if self.cuda:
@@ -42,17 +44,23 @@ class EntailmentModel(object):
             outputs = self.model(**inputs)
             logits = outputs.logits
 
+            # Convert logits into probabilities
+            probabilities = torch.softmax(logits, dim=-1)[0]
+
+            # Index 0 represents entailment
+            entailment_score = probabilities[0].item()
+            neutral_score = probabilities[1].item()
+            contradiction_score = probabilities[2].item()
+
         # Note that the labels are ["entailment", "neutral", "contradiction"]. There are a number of ways to map
         # these logits or probabilities to classification decisions; you'll have to decide how you want to do this.
 
-        raise Exception("Not implemented")
-
         # To prevent out-of-memory (OOM) issues during autograding, we explicitly delete
         # objects inputs, outputs, logits, and any results that are no longer needed after the computation.
-        del inputs, outputs, logits
+        del inputs, outputs, logits, probabilities
         gc.collect()
 
-        # return something
+        return entailment_score, neutral_score, contradiction_score
 
 
 class FactChecker(object):
@@ -128,11 +136,31 @@ class WordRecallThresholdFactChecker(FactChecker):
 
 
 class EntailmentFactChecker(FactChecker):
-    def __init__(self, ent_model):
+    def __init__(self, ent_model, threshold=0.2):
         self.ent_model = ent_model
+        self.threshold = threshold
 
     def predict(self, fact: str, passages: List[dict]) -> str:
-        raise Exception("Implement me")
+
+        if not passages:
+            return "NS"
+
+        best_score = -1.0
+
+        for passage in passages:
+            premise = passage["text"]
+            hypothesis = fact
+            entailment, neutral, contradiction = self.ent_model.check_entailment(premise, hypothesis)
+
+            # Compare entailment against the strongest alternative
+            score = entailment
+
+            best_score = max(best_score, score)
+
+        if best_score >= self.threshold:
+            return "S"
+
+        return "NS"
 
 
 # OPTIONAL
