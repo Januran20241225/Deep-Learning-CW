@@ -1,0 +1,418 @@
+{
+  "threshold": 0.2,
+  "total_examples": 221,
+  "false_positive_count": 21,
+  "false_negative_count": 28,
+  "false_positives": [
+    {
+      "example_index": 1,
+      "fact": "Marianne McAndrew is an American.",
+      "original_gold_label": "NS",
+      "gold_label": "NS",
+      "predicted_label": "S",
+      "passages": [
+        {
+          "title": "Marianne McAndrew",
+          "text": "<s>Marianne McAndrew Marianne Christine McAndrew is an actress known for her role as Irene Molloy in the film \"Hello, Dolly!\"</s><s>Career. \"Hello, Dolly!\" was McAndrew's first credited film role. The role of Irene Molloy was given considerably more attention in the film than in earlier Broadway productions. \"Hello, Dolly!\" earned McAndrew two Golden Globe nominations in 1969; Golden Globe Award for Best Supporting Actress – Motion Picture and the since discontinued Golden Globe Award for New Star of the Year – Actress, as well as generally good reviews. She landed a starring (second billed) role in her next film (\"The Seven Minutes\"). By 1971, she had made appearances in popular TV shows including \"Hawaii 5-0\", \"Mannix\", \"Cannon\" and \"Love, American Style\" One notable later film role was her co-starring role in \"The Bat People\", with her husband Stewart Moss. The film was widely panned, but is still somewhat known today as a \"bad film\". \"The Bat People\" was also her last film released in theaters; she has only worked in television since its release. Her only other later role of particular note is her role of"
+        },
+        {
+          "title": "Marianne McAndrew",
+          "text": " Doris Williams in \"Growing Up Brady\", a TV film about the popular show. McAndrew, along with everything else related to the film \"Hello, Dolly!\" experienced something of a resurgence in popularity with the release of \"WALL-E\", which featured clips from the film, including a duet with McAndrew's character (but McAndrew did not do her own singing in the film, which some news outlets claimed in articles about \"WALL-E\").</s><s>Personal life. McAndrew married actor Stewart Moss in 1968, remaining married until his death in 2017. They starred together in \"The Bat People\". McAndrew has two brothers.</s><s>Awards and honors. \"Hello, Dolly!\" earned McAndrew two Golden Globe nominations in 1969; Golden Globe Award for Best Supporting Actress – Motion Picture and the since discontinued Golden Globe Award for New Star of the Year – Actress.</s><s>References.</s>"
+        }
+      ]
+    },
+    {
+      "example_index": 3,
+      "fact": "Marianne McAndrew is a singer.",
+      "original_gold_label": "NS",
+      "gold_label": "NS",
+      "predicted_label": "S",
+      "passages": [
+        {
+          "title": "Marianne McAndrew",
+          "text": "<s>Marianne McAndrew Marianne Christine McAndrew is an actress known for her role as Irene Molloy in the film \"Hello, Dolly!\"</s><s>Career. \"Hello, Dolly!\" was McAndrew's first credited film role. The role of Irene Molloy was given considerably more attention in the film than in earlier Broadway productions. \"Hello, Dolly!\" earned McAndrew two Golden Globe nominations in 1969; Golden Globe Award for Best Supporting Actress – Motion Picture and the since discontinued Golden Globe Award for New Star of the Year – Actress, as well as generally good reviews. She landed a starring (second billed) role in her next film (\"The Seven Minutes\"). By 1971, she had made appearances in popular TV shows including \"Hawaii 5-0\", \"Mannix\", \"Cannon\" and \"Love, American Style\" One notable later film role was her co-starring role in \"The Bat People\", with her husband Stewart Moss. The film was widely panned, but is still somewhat known today as a \"bad film\". \"The Bat People\" was also her last film released in theaters; she has only worked in television since its release. Her only other later role of particular note is her role of"
+        },
+        {
+          "title": "Marianne McAndrew",
+          "text": " Doris Williams in \"Growing Up Brady\", a TV film about the popular show. McAndrew, along with everything else related to the film \"Hello, Dolly!\" experienced something of a resurgence in popularity with the release of \"WALL-E\", which featured clips from the film, including a duet with McAndrew's character (but McAndrew did not do her own singing in the film, which some news outlets claimed in articles about \"WALL-E\").</s><s>Personal life. McAndrew married actor Stewart Moss in 1968, remaining married until his death in 2017. They starred together in \"The Bat People\". McAndrew has two brothers.</s><s>Awards and honors. \"Hello, Dolly!\" earned McAndrew two Golden Globe nominations in 1969; Golden Globe Award for Best Supporting Actress – Motion Picture and the since discontinued Golden Globe Award for New Star of the Year – Actress.</s><s>References.</s>"
+        }
+      ]
+    },
+    {
+      "example_index": 6,
+      "fact": "Cleveland is in Ohio.",
+      "original_gold_label": "IR",
+      "gold_label": "NS",
+      "predicted_label": "S",
+      "passages": [
+        {
+          "title": "Mike Trivisonno",
+          "text": " Cleveland's eastern suburbs. He was married to his high school sweetheart Linda Conforto, who died of lung and brain cancer in 2009, at age 61. The couple have three children, two sons and a daughter, and two grandchildren. On April 1, 2011, Trivisonno married his girlfriend, Tami in Las Vegas. His brother, Gary, a golfer, was also a radio personality on WTAM, hosting a weekly golf show. His son, Michael Jr., owns an upscale restaurant called Trivs in suburban Strongsville, Ohio. He died unexpectedly on October 28, 2021, at the age of 74. The cause of death is unknown.</s>"
+        },
+        {
+          "title": "Mike Trivisonno",
+          "text": "<s>Mike Trivisonno Mike Trivisonno (September 20, 1947 – October 28, 2021) was an American radio broadcaster, known for hosting his own self-titled afternoon talk show on Cleveland radio station WTAM AM 1100. He was widely referred to simply as \"Triv\" by callers and the Cleveland media.</s><s>Career. He was a frequent caller on the \"Sportsline\" radio show on WTAM AM 1100 (during this period the station was operating under the WWWE call letters). The show was hosted by the acerbic Pete Franklin and dealt with Cleveland sports. Franklin, who would typically cut off most callers, began giving \"Mike from Mayfield\" some latitude due to knowledgeable commentary, particularly regarding the Cleveland Browns. Franklin began mockingly referring to Trivisonno as \"Mr. Know It All,\" a moniker he would carry into his own radio career. Trivisonno eventually began his own broadcasting career in 1987, working for a time at WNCX, commenting on sports (particularly boxing) and becoming a full-time personality from 1989–1992. He began hosting \"Sportsline\" on WWWE in 1994. At first, the show aired from 6-11 p.m. The show did well"
+        },
+        {
+          "title": "Mike Trivisonno",
+          "text": " in the ratings, even though it was usually up against Cleveland Indians games on WKNR. It did so well, the decision was made to put Trivisonno in afternoon drive-time (under the \"Sportsline\" banner until 1998; under his own name since) ultimately leaving \"Sportsline\" to other hosts. Throughout the program's history, \"The Mike Trivisonno Show\" was usually either first or second in ratings in its time slot in the market. His show had been originally dedicated mostly to sports, but over time became a forum for discussing sports, politics, local issues, current events, or whatever else was on Trivisonno's mind at the time. He discussed topics (and frequently argued) with listeners who called in to the show and/or with his various producers and sidekicks that worked alongside him. Trivisonno's popularity and high ratings led him to be ranked numerous times among \"Talkers Magazine's\" \"Heavy Hundred\", including most recently in 2015, when he came in at #72. He was also a nominee for the Large Market Personality of the Year Marconi Award in 2010.</s><s>Personal life. Trivisonno was born in East Cleveland, Ohio, and attended Mayfield High School in"
+        }
+      ]
+    },
+    {
+      "example_index": 14,
+      "fact": "The Fischer Research Laboratory became one of the world's leading manufacturers of metal detectors.",
+      "original_gold_label": "NS",
+      "gold_label": "NS",
+      "predicted_label": "S",
+      "passages": [
+        {
+          "title": "Gerhard Fischer (inventor)",
+          "text": " the hand-held metal detector is disputed, the hand-held metal detector was made in 1925 and was first patented by Dr. Gerhard Fisher in 1931. A metal detector had been invented some forty years earlier (1881) by Alexander Graham Bell for the sole purpose of locating a lead bullet in President James A. Garfield.</s><s>Biography.:Fisher Research Laboratory. He founded \"Fisher Research Laboratory\" to develop and market the hand held metal detectors in 1931.</s><s>References. - - -</s>"
+        },
+        {
+          "title": "Gerhard Fischer (inventor)",
+          "text": "<s>Gerhard Fischer (inventor) Gerhard Julius Richard Fischer later Gerhard Julius Richard Fisher, Gerhard R. Fisher (March 18, 1899 – May 2, 1988) was a U.S. entrepreneur of German descent. He contributed to the development and popularity of the hand held metal detector.</s><s>Biography. Fisher was born in 1899 in Landeshut, Silesia, to Richard Hugo Georg Arthur Fischer, an engineer, and his wife Margaretha Julia Fischer née Job. His mother was from Łódź, where the parents also married. Around 1906, the Fischer family moved to Dresden. After studying electrical engineering at the Dresden University, Fischer emigrated to the U.S. In 1931, he founded Fisher Research Laboratory, Inc. in Palo Alto, where he served as president until his retirement in 1967. While working with aircraft radio detection finders environment-dependent changes became apparent. From the interference by metal, he concluded that the device must also be suitable for detecting metal. Fisher shared the idea with Albert Einstein who correctly predicted the proliferation of hand held metal detector use. In 1937, he patented his metal detector. He died 1988 in Palo Alto.</s><s>Biography.:Inventions. Although the actual inventor of"
+        }
+      ]
+    },
+    {
+      "example_index": 20,
+      "fact": "She transitioned to acting.",
+      "original_gold_label": "NS",
+      "gold_label": "NS",
+      "predicted_label": "S",
+      "passages": [
+        {
+          "title": "Virginia Valli",
+          "text": "<s>Virginia Valli Virginia Valli (died September 24, 1968) was an American stage and film actress whose motion picture career started in the silent film era and lasted until the beginning of the sound film era of the 1930s.</s><s>Early life. Born Virginia McSweeney in Chicago, Illinois, she got her acting start in Milwaukee with a stock company. She also did some film work with Essanay Studios in Chicago, starting in 1916.</s><s>Film career. Valli continued to appear in films throughout the 1920s. She was an established star at the Universal studio by the mid-1920s. In 1924 she was the female lead in King Vidor's southern gothic \"Wild Oranges\", a film now recovered from film vault obscurity. She also appeared in the romantic comedy, \"Every Woman's Life\", about \"the man she could have married, the man she should have married and the man she DID marry.\" Most of her films were made between 1924 and 1927, and included Alfred Hitchcock's debut feature, \"The Pleasure Garden\" (1925), \"Paid to Love\" (1927), with William Powell, and \"Evening Clothes\" (1927), which featured Adolphe Menjou. In 1925"
+        },
+        {
+          "title": "Virginia Valli",
+          "text": " Valli performed in \"The Man Who Found Himself\" with Thomas Meighan. Her first sound picture was \"The Isle of Lost Ships\" with Jason Robards Sr. and Noah Beery Sr. in 1929. Her last film was in \"Night Life in Reno\", in 1931.</s><s>Personal life. Valli was first married to George Lamson and the two shared a bungalow in Hollywood, near the Hollywood Hotel. In 1931, she married her second husband, actor Charles Farrell. They moved to Palm Springs, where she was a social fixture for many years. She suffered a stroke in 1966, and died two years later, aged 73, in Palm Springs. She was buried in the Welwood Murray Cemetery of that city. She had no children.</s><s>Filmography. - \"Filling His Own Shoes\" (1917) - \"The Golden Idiot\" (1917) - \"The Fibbers\" (1917) - \"Satan's Private Door\" (1917) - \"Uneasy Money\" (1918) - \"Ruggles of Red Gap\" (1918) - \"His Father's Wife\" (1919) - \"The Black Circle\" (1919) - \"The Very Idea\""
+        },
+        {
+          "title": "Virginia Valli",
+          "text": " Bibliography - Elyria, Ohio Chronicle Telegram, \"Virginia Valli, ex-actress, dies\", September 25, 1968, p. 40. - Madison, Wisconsin Capitol Times, \"Borne On The Wings Of The \"Storm\" Valli – Latest Star On The Movie Horizon\", Saturday Afternoon, September 16, 1922, p. 4. - Oakland, California Tribune, \"Virginia Valli Starts Work In Eastern Studio\", June 21, 1925, p. 75.</s>"
+        },
+        {
+          "title": "Virginia Valli",
+          "text": " (1920) - \"The Dead Line\" (1920) - \"The Midnight Bride\" (1920) - \"The Common Sin\" (1920) - \"The Plunger\" (1920) - \"The Silver Lining\" (1921) - \"Sentimental Tommy\" (1921) - \"The Idle Rich\" (1921) - \"The Man Who\" (1921) - \"A Trip to Paradise\" (1921) - \"The Devil Within\" (1921) - \"Love's Penalty\" (1921) - \"The Right That Failed\" (1922) - \"His Back Against the Wall\" (1922) - \"The Black Bag\" (1922) - \"The Village Blacksmith\" (1922) - \"Tracked to Earth\" (1922) - \"The Storm\" (1922) - \"The Shock\" (1923) - \"A Lady of Quality\" (1924) - \"Wild Oranges\" (1924) - \"The Confidence Man\" (1924) - \"The Signal Tower\" (1924) - \"K – The Unknown\" (1924) - \"In Every Woman's Life\" (1924) - \"The Lady Who L"
+        },
+        {
+          "title": "Virginia Valli",
+          "text": "ied\" (1925) - \"The Price of Pleasure\" (1925) - \"The Man Who Found Himself\" (1925) - \"Siege\" (1925) - \"Up the Ladder\" (1925) - \"The Pleasure Garden\" (1925) - \"Watch Your Wife\" (1926) - \"Flames\" (1926) - \"The Family Upstairs\" (1926) - \"Stage Madness\" (1927) - \"Judgment of the Hills\" (1927) - \"Evening Clothes\" (1927) - \"Marriage\" (1927) - \"Paid to Love\" (1927) - \"Ladies Must Dress\" (1927) - \"East Side, West Side\" (1927) - \"The Street of Illusion\" (1928) - \"The Escape\" (1928) - \"The Isle of Lost Ships\" (1929) - \"The Lost Zeppelin\" (1929) - \"Mister Antonio\" (1929) - \"Behind Closed Doors\" (1929) - \"Guilty?\" (1930) - \"Night Life in Reno\" (1931)</s><s>References. - Notes -"
+        }
+      ]
+    },
+    {
+      "example_index": 35,
+      "fact": "Tusa has been involved in various cultural initiatives.",
+      "original_gold_label": "NS",
+      "gold_label": "NS",
+      "predicted_label": "S",
+      "passages": [
+        {
+          "title": "Vincenzo Tusa",
+          "text": " Sicilian Region has dedicated the \"Cave Archeology Area of Cusa Vincenzo Tusa\".</s><s>Works. - L'urbanistica di Solunto, 1970 - Anastylosis ad Agrigento Tempio di Eracle e Selinunte Tempio C, 1975 - La scultura in pietra di Selinunte, 1984 - La preistoria in Sicilia, 1987 - Selinunte nella mia vita, 1990 - Segesta, 1991 - Siciliani illustri: Antonino Salinas, 1995 - Sarcofagi romani in Sicilia, 1995 - Il parco archeologico di Selinunte, 2011</s><s>References.</s>"
+        },
+        {
+          "title": "Vincenzo Tusa",
+          "text": "<s>Vincenzo Tusa Vincenzo Tusa (12 July 1920 – 5 March 2009) was an Italian archeologist.</s><s>Biography. After studying in Mistretta, Tusa graduated in Literature in Catania in 1944 and became an assistant in Archeology. In 1947. He was hired by the Superintendency of Antiquities in Bologna and two years later he was transferred to Palermo. In 1963 he assumed the post of Superintendent for the BBCC of western Sicily. Tusa promoted excavations in the archaeological sites of Soluntum, Segesta, Selinunte, Motya, Marsala. In the 60's Tusa was the promoter of the \"Sicilia Archeologica\" magazine. From 1964 to 1991 he was also professor of Punic Antiquities at the Faculty of Letters of the University of Palermo. He was a member of the Accademia dei Lincei in the Moral Sciences class for the Archeology category. His son Sebastiano Tusa, also an archaeologist, was head of the Superintendency for the Sea of the Sicilian Region. His name appears on the list of members of the Masonic lodge P2.</s><s>Acknowledgments. In Tusa the"
+        }
+      ]
+    },
+    {
+      "example_index": 41,
+      "fact": "Jean Daullé was a printmaker.",
+      "original_gold_label": "NS",
+      "gold_label": "NS",
+      "predicted_label": "S",
+      "passages": [
+        {
+          "title": "Jean Daullé",
+          "text": "<s>Jean Daullé Jean Daullé (18 May 1703 – 23 April 1763) was a French engraver.</s><s>Biography. He was the son of Jean Daullé, a silversmith, and his wife, Anne née Dennel. At the age of fourteen, he received training from an engraver named Robart, at the priory of Saint-Pierre d'Abbeville. He then went to Paris, and worked at the studios of Robert Hecquet (1693-1775), who was also originally from Picardy. In 1735, his work attracted the attention of the engraver and merchant, Pierre-Jean Mariette, who provided him with professional recommendations. Soon after, he was approached by the painter, Hyacinthe Rigaud, who wanted to make him his official engraver. In 1742, Daullé was received at the Académie Royale de Peinture et de Sculpture, with his presentation, \"Hyacinthe Rigaud Painting his Wife\", after a work by Rigaud. He was also admitted as a member of the academy in Augsbourg. Eventually named \"Engraver to the King\","
+        },
+        {
+          "title": "Jean Daullé",
+          "text": " he trained the future publisher and print dealer, Pierre-François Basan, as well as the German engraver Jean-Georges Wille. Around 1745, he married Gabrielle-Anne Landry and they had five children. Overwhelmed by his large family, his work suffered.</s><s>Work. He engraved several portraits and plates of historical and other subjects, which are chiefly executed with the graver in a clear and firm style, which entitles him to rank with the ablest artists of his time. He marked his works J. D. The following are his principal plates:</s><s>Work.:Portraits. - \"Catherine, Countess of Feuquières, daughter of Pierre Mignard\"; after Mignard. - \"Hyacinthe Rigaud, painter\"; after Rigaud; engraved for his reception at the Academy in 1742. - \"Marguerite de Valois, Countess of Caylus\"; after the same. - \"Charles Edward Stuart, son of the Pretender\". - \"Clementina, Princess of Poland, his consort\"; after David. - \"Madame Favart, in the part of 'Bastienne;' \" after Carle van Loo."
+        },
+        {
+          "title": "Jean Daullé",
+          "text": " - \"Claude Deshayes Gendron, oculist\"; after Rigaud. - \"Jean Baptiste Rousseau\"; after Aved. - \"Jean Mariette, engraver\"; after Pesne.</s><s>Work.:Subjects after various masters. - \"The Magdalen\"; after Correggio; for the Dresden Gallery. - \"Diogenes with his Lantern\"; after Spagnoletto; for the same. - \"Quos Ego\"; after Rubens. - \"The Two Sons of Rubens\"; after the same; for the Dresden Gallery. - \"Neptune appeasing the Tempest\"; after the same. - \"Charity with Three Children\"; after Albani. - \"The Triumph of Venus\"; after Boucher. - \"Les Amusemens de la Campagne\"; after Boucher. - \"Latona\"; after J. Jouvenet. - \"Four Marine subjects\"; after Joseph Vernet. - \"The Bath of Venus\"; after Raoux. - \"Two subjects\"; after G. Metsu. - \"Jupiter and Calisto\"; after N. Poussin. - \"St. Margaret\"; after Correggio. - \"Child playing with Cupid\";"
+        },
+        {
+          "title": "Jean Daullé",
+          "text": " after Van Dyck. A detailed account of this artist's works is contained in Delignière's 'Catalogue raisonné de l'oeuvre gravé de Jean Daullé d' Abbeville,' 1872, 8vo.</s><s>References. - - Attribution:</s>"
+        }
+      ]
+    },
+    {
+      "example_index": 52,
+      "fact": "Itakura has represented Japan at the Under-19-level.",
+      "original_gold_label": "NS",
+      "gold_label": "NS",
+      "predicted_label": "S",
+      "passages": [
+        {
+          "title": "Ko Itakura",
+          "text": "<s>Ko Itakura</s><s>Club career. Born in Yokohama, Ko Itakura joined J1 League club Kawasaki Frontale in 2015, with which he won the 2017 Japanese championship. He was loaned to Vegalta Sendai in 2018. In January 2019, he joined Premier League club Manchester City and was immediately loaned to Eredivisie club Groningen, until the summer of 2020. On 24 July 2020, his stay with Groningen was extended with one more year after both clubs agreed. On 19 August 2021, Itakura signed a season-long loan deal with 2. Bundesliga club Schalke 04 with an option to make the move permanent for £5 million. At the end of the season, he was promoted to the Bundesliga with Schalke, but the club did not activate the option due to financial reasons. On 2 July 2022, he returned to Germany and signed permanently with Bundesliga club Borussia Mönchengladbach on a €5,000,000 transfer fee.</s><s>International career. In May 2017, Itakura was called up to the Japan U-20 national team for the 2017 U-20 World Cup. At this tournament, he played 2 matches as defensive midfielder. He was selected for the senior Japan"
+        },
+        {
+          "title": "Ko Itakura",
+          "text": " national football team for 2019 Copa América and made his debut on 20 June 2019 in the game against Uruguay, as a starter. In November 2022, he was selected for the 2022 FIFA World Cup Japan National team for the first time. Participated in all group stage matches and became the first Asian team to win first place in an overseas World Cup group league, contributing to advance to the final tournament for two consecutive tournaments. His long ball was the starting point of the come-from-behind goal against Germany. He was also named in the first group stage best eleven by Spain's 'Marca' and Italy's version of 'Sky Sports'. The former named him one of the players to double his value in the World Cup and described him as \"the most consistent performance of the entire tournament\". On March 28, 2023, he served as captain for the first time in the second match of the second term of Moriyasu Japan against Colombia.</s><s>Career statistics.</s><s>Career statistics.:Club.</s><s>Career statistics.:International. \"Scores and results list Japan's goal tally first.\"</s><s>Honours. Kawasaki Frontale - J1 League: 2017 Vegalta Sendai - Emperor's Cup: 2018 Schalke 04"
+        },
+        {
+          "title": "Ko Itakura",
+          "text": " - 2. Bundesliga: 2021–22 Individual - TAG Heuer YOUNG GUNS AWARD: 2018 - Groningen player of the year: 2020/21 - Japan Pro-Footballers Association awards: Best XI (2022)</s>"
+        }
+      ]
+    },
+    {
+      "example_index": 66,
+      "fact": "Trivisonno worked at WMMS.",
+      "original_gold_label": "NS",
+      "gold_label": "NS",
+      "predicted_label": "S",
+      "passages": [
+        {
+          "title": "Mike Trivisonno",
+          "text": " in the ratings, even though it was usually up against Cleveland Indians games on WKNR. It did so well, the decision was made to put Trivisonno in afternoon drive-time (under the \"Sportsline\" banner until 1998; under his own name since) ultimately leaving \"Sportsline\" to other hosts. Throughout the program's history, \"The Mike Trivisonno Show\" was usually either first or second in ratings in its time slot in the market. His show had been originally dedicated mostly to sports, but over time became a forum for discussing sports, politics, local issues, current events, or whatever else was on Trivisonno's mind at the time. He discussed topics (and frequently argued) with listeners who called in to the show and/or with his various producers and sidekicks that worked alongside him. Trivisonno's popularity and high ratings led him to be ranked numerous times among \"Talkers Magazine's\" \"Heavy Hundred\", including most recently in 2015, when he came in at #72. He was also a nominee for the Large Market Personality of the Year Marconi Award in 2010.</s><s>Personal life. Trivisonno was born in East Cleveland, Ohio, and attended Mayfield High School in"
+        },
+        {
+          "title": "Mike Trivisonno",
+          "text": "<s>Mike Trivisonno Mike Trivisonno (September 20, 1947 – October 28, 2021) was an American radio broadcaster, known for hosting his own self-titled afternoon talk show on Cleveland radio station WTAM AM 1100. He was widely referred to simply as \"Triv\" by callers and the Cleveland media.</s><s>Career. He was a frequent caller on the \"Sportsline\" radio show on WTAM AM 1100 (during this period the station was operating under the WWWE call letters). The show was hosted by the acerbic Pete Franklin and dealt with Cleveland sports. Franklin, who would typically cut off most callers, began giving \"Mike from Mayfield\" some latitude due to knowledgeable commentary, particularly regarding the Cleveland Browns. Franklin began mockingly referring to Trivisonno as \"Mr. Know It All,\" a moniker he would carry into his own radio career. Trivisonno eventually began his own broadcasting career in 1987, working for a time at WNCX, commenting on sports (particularly boxing) and becoming a full-time personality from 1989–1992. He began hosting \"Sportsline\" on WWWE in 1994. At first, the show aired from 6-11 p.m. The show did well"
+        },
+        {
+          "title": "Mike Trivisonno",
+          "text": " Cleveland's eastern suburbs. He was married to his high school sweetheart Linda Conforto, who died of lung and brain cancer in 2009, at age 61. The couple have three children, two sons and a daughter, and two grandchildren. On April 1, 2011, Trivisonno married his girlfriend, Tami in Las Vegas. His brother, Gary, a golfer, was also a radio personality on WTAM, hosting a weekly golf show. His son, Michael Jr., owns an upscale restaurant called Trivs in suburban Strongsville, Ohio. He died unexpectedly on October 28, 2021, at the age of 74. The cause of death is unknown.</s>"
+        }
+      ]
+    },
+    {
+      "example_index": 68,
+      "fact": "Trivisonno worked at WKNR.",
+      "original_gold_label": "NS",
+      "gold_label": "NS",
+      "predicted_label": "S",
+      "passages": [
+        {
+          "title": "Mike Trivisonno",
+          "text": " in the ratings, even though it was usually up against Cleveland Indians games on WKNR. It did so well, the decision was made to put Trivisonno in afternoon drive-time (under the \"Sportsline\" banner until 1998; under his own name since) ultimately leaving \"Sportsline\" to other hosts. Throughout the program's history, \"The Mike Trivisonno Show\" was usually either first or second in ratings in its time slot in the market. His show had been originally dedicated mostly to sports, but over time became a forum for discussing sports, politics, local issues, current events, or whatever else was on Trivisonno's mind at the time. He discussed topics (and frequently argued) with listeners who called in to the show and/or with his various producers and sidekicks that worked alongside him. Trivisonno's popularity and high ratings led him to be ranked numerous times among \"Talkers Magazine's\" \"Heavy Hundred\", including most recently in 2015, when he came in at #72. He was also a nominee for the Large Market Personality of the Year Marconi Award in 2010.</s><s>Personal life. Trivisonno was born in East Cleveland, Ohio, and attended Mayfield High School in"
+        },
+        {
+          "title": "Mike Trivisonno",
+          "text": "<s>Mike Trivisonno Mike Trivisonno (September 20, 1947 – October 28, 2021) was an American radio broadcaster, known for hosting his own self-titled afternoon talk show on Cleveland radio station WTAM AM 1100. He was widely referred to simply as \"Triv\" by callers and the Cleveland media.</s><s>Career. He was a frequent caller on the \"Sportsline\" radio show on WTAM AM 1100 (during this period the station was operating under the WWWE call letters). The show was hosted by the acerbic Pete Franklin and dealt with Cleveland sports. Franklin, who would typically cut off most callers, began giving \"Mike from Mayfield\" some latitude due to knowledgeable commentary, particularly regarding the Cleveland Browns. Franklin began mockingly referring to Trivisonno as \"Mr. Know It All,\" a moniker he would carry into his own radio career. Trivisonno eventually began his own broadcasting career in 1987, working for a time at WNCX, commenting on sports (particularly boxing) and becoming a full-time personality from 1989–1992. He began hosting \"Sportsline\" on WWWE in 1994. At first, the show aired from 6-11 p.m. The show did well"
+        },
+        {
+          "title": "Mike Trivisonno",
+          "text": " Cleveland's eastern suburbs. He was married to his high school sweetheart Linda Conforto, who died of lung and brain cancer in 2009, at age 61. The couple have three children, two sons and a daughter, and two grandchildren. On April 1, 2011, Trivisonno married his girlfriend, Tami in Las Vegas. His brother, Gary, a golfer, was also a radio personality on WTAM, hosting a weekly golf show. His son, Michael Jr., owns an upscale restaurant called Trivs in suburban Strongsville, Ohio. He died unexpectedly on October 28, 2021, at the age of 74. The cause of death is unknown.</s>"
+        }
+      ]
+    }
+  ],
+  "false_negatives": [
+    {
+      "example_index": 10,
+      "fact": "Gerhard Fischer invented the first handheld, battery-operated metal detector.",
+      "original_gold_label": "S",
+      "gold_label": "S",
+      "predicted_label": "NS",
+      "passages": [
+        {
+          "title": "Gerhard Fischer (inventor)",
+          "text": " the hand-held metal detector is disputed, the hand-held metal detector was made in 1925 and was first patented by Dr. Gerhard Fisher in 1931. A metal detector had been invented some forty years earlier (1881) by Alexander Graham Bell for the sole purpose of locating a lead bullet in President James A. Garfield.</s><s>Biography.:Fisher Research Laboratory. He founded \"Fisher Research Laboratory\" to develop and market the hand held metal detectors in 1931.</s><s>References. - - -</s>"
+        },
+        {
+          "title": "Gerhard Fischer (inventor)",
+          "text": "<s>Gerhard Fischer (inventor) Gerhard Julius Richard Fischer later Gerhard Julius Richard Fisher, Gerhard R. Fisher (March 18, 1899 – May 2, 1988) was a U.S. entrepreneur of German descent. He contributed to the development and popularity of the hand held metal detector.</s><s>Biography. Fisher was born in 1899 in Landeshut, Silesia, to Richard Hugo Georg Arthur Fischer, an engineer, and his wife Margaretha Julia Fischer née Job. His mother was from Łódź, where the parents also married. Around 1906, the Fischer family moved to Dresden. After studying electrical engineering at the Dresden University, Fischer emigrated to the U.S. In 1931, he founded Fisher Research Laboratory, Inc. in Palo Alto, where he served as president until his retirement in 1967. While working with aircraft radio detection finders environment-dependent changes became apparent. From the interference by metal, he concluded that the device must also be suitable for detecting metal. Fisher shared the idea with Albert Einstein who correctly predicted the proliferation of hand held metal detector use. In 1937, he patented his metal detector. He died 1988 in Palo Alto.</s><s>Biography.:Inventions. Although the actual inventor of"
+        }
+      ]
+    },
+    {
+      "example_index": 26,
+      "fact": "Just Cause is a film.",
+      "original_gold_label": "S",
+      "gold_label": "S",
+      "predicted_label": "NS",
+      "passages": [
+        {
+          "title": "Taral Hicks",
+          "text": "<s>Taral Hicks Taral Hicks (born September 21, 1974) is an American actress and singer. Hicks is best known for her acting in such films as 1993's American crime drama film \"A Bronx Tale\" and her singing in such work as her 1997 debut studio album \"This Time\" which peaked at No. 4 on \"Billboard\" Bubbling Under Hot 100 Singles. Raised in Teaneck, New Jersey, Hicks graduated from Teaneck High School in 1994.</s><s>Career.</s><s>Career.:Acting. Hicks began her film career with a role in the critically acclaimed 1993 film, \"A Bronx Tale\". Her subsequent film roles were small: 1995's \"Just Cause\" with Sean Connery and Laurence Fishburne, and 1996's \"Educating Matt Waters\" and \"The Preacher's Wife\" with Whitney Houston. She appeared in the movie \"Belly\" in 1998. In 2000, she appeared on screen in the short film, \"Are You Cinderella?\", with actor Wood Harris. Her later film roles were in independent films such as 2005's \"The Salon\", with Vivica A. Fox, Dondre Whitfield, and Darrin Henson; 2006's \"Forbidden Fruits\" with"
+        },
+        {
+          "title": "Taral Hicks",
+          "text": "\", a remake of the classic R&B hit by Deniece Williams, was released. Featuring a black-and-white music video directed by Hype Williams, the single charted well on the R&B chart. After collaborating on the video for \"Silly\", Williams cast Hicks as in his directorial film debut, 1998's \"Belly\", as Keisha, DMX's girlfriend. The video for \"Silly\" appeared in one of the film's scenes. Hicks has expressed interest in pursuing a career in gospel music.</s><s>Personal life. Hicks is a 1993 graduate of Grace Dodge Vocational High School in the Bronx, New York. She is the younger sister of actress and singer D'atra Hicks. In 1999, Hicks began dating Loren Dawson, and the couple married in 2001.</s><s>Discography.</s><s>Discography.:Singles. - Soundtracks - 1996: \"The Associate\" (on \"Yes We Can Can\" with Chantay Savage, LaShanda Reese and The Pointer Sisters)</s>"
+        },
+        {
+          "title": "Taral Hicks",
+          "text": " Ella Joyce, Fredro Starr, and R&B singer Keith Sweat; 2007's \"Humenetomy\"; and 2010's \"Ex$pendable\". Hicks featured in the HBO television series \"Subway Stories\" in 1997. Two guest roles followed: 2002's \"100 Centre Street\" in the episode titled \"Fathers\", and a 2003 episode of \"Soul Food: The Series\" titled \"The New Math\". Hicks co-starred in the musical stage play Tyler Perry's \"Aunt Bam's Place\" with Paris Bennett, Cassi Davis, Jeffrey Lewis, and Melonie Daniels. It had a 3-day run beginning August 30, 2011 in Atlanta, Georgia (Cobb Energy Center) and was filmed for a DVD release on June 12, 2012.</s><s>Career.:Music. In 1995, Hicks signed a deal with Motown Records and released an album titled \"This Time\". The single \"Ooh, Ooh Baby\", written by and featuring Missy Elliott, charted on the Billboard R&B singles chart. However, the lead single intended to debut her singing career was \"Distant Lover\", an uptempo track produced by Teddy Riley. The album did not take off until the second single, \"Silly"
+        }
+      ]
+    },
+    {
+      "example_index": 49,
+      "fact": "He moved to Dutch club FC Groningen.",
+      "original_gold_label": "S",
+      "gold_label": "S",
+      "predicted_label": "NS",
+      "passages": [
+        {
+          "title": "Ko Itakura",
+          "text": "<s>Ko Itakura</s><s>Club career. Born in Yokohama, Ko Itakura joined J1 League club Kawasaki Frontale in 2015, with which he won the 2017 Japanese championship. He was loaned to Vegalta Sendai in 2018. In January 2019, he joined Premier League club Manchester City and was immediately loaned to Eredivisie club Groningen, until the summer of 2020. On 24 July 2020, his stay with Groningen was extended with one more year after both clubs agreed. On 19 August 2021, Itakura signed a season-long loan deal with 2. Bundesliga club Schalke 04 with an option to make the move permanent for £5 million. At the end of the season, he was promoted to the Bundesliga with Schalke, but the club did not activate the option due to financial reasons. On 2 July 2022, he returned to Germany and signed permanently with Bundesliga club Borussia Mönchengladbach on a €5,000,000 transfer fee.</s><s>International career. In May 2017, Itakura was called up to the Japan U-20 national team for the 2017 U-20 World Cup. At this tournament, he played 2 matches as defensive midfielder. He was selected for the senior Japan"
+        },
+        {
+          "title": "Ko Itakura",
+          "text": " national football team for 2019 Copa América and made his debut on 20 June 2019 in the game against Uruguay, as a starter. In November 2022, he was selected for the 2022 FIFA World Cup Japan National team for the first time. Participated in all group stage matches and became the first Asian team to win first place in an overseas World Cup group league, contributing to advance to the final tournament for two consecutive tournaments. His long ball was the starting point of the come-from-behind goal against Germany. He was also named in the first group stage best eleven by Spain's 'Marca' and Italy's version of 'Sky Sports'. The former named him one of the players to double his value in the World Cup and described him as \"the most consistent performance of the entire tournament\". On March 28, 2023, he served as captain for the first time in the second match of the second term of Moriyasu Japan against Colombia.</s><s>Career statistics.</s><s>Career statistics.:Club.</s><s>Career statistics.:International. \"Scores and results list Japan's goal tally first.\"</s><s>Honours. Kawasaki Frontale - J1 League: 2017 Vegalta Sendai - Emperor's Cup: 2018 Schalke 04"
+        },
+        {
+          "title": "Ko Itakura",
+          "text": " - 2. Bundesliga: 2021–22 Individual - TAG Heuer YOUNG GUNS AWARD: 2018 - Groningen player of the year: 2020/21 - Japan Pro-Footballers Association awards: Best XI (2022)</s>"
+        }
+      ]
+    },
+    {
+      "example_index": 50,
+      "fact": "He made the move in 2019.",
+      "original_gold_label": "S",
+      "gold_label": "S",
+      "predicted_label": "NS",
+      "passages": [
+        {
+          "title": "Ko Itakura",
+          "text": "<s>Ko Itakura</s><s>Club career. Born in Yokohama, Ko Itakura joined J1 League club Kawasaki Frontale in 2015, with which he won the 2017 Japanese championship. He was loaned to Vegalta Sendai in 2018. In January 2019, he joined Premier League club Manchester City and was immediately loaned to Eredivisie club Groningen, until the summer of 2020. On 24 July 2020, his stay with Groningen was extended with one more year after both clubs agreed. On 19 August 2021, Itakura signed a season-long loan deal with 2. Bundesliga club Schalke 04 with an option to make the move permanent for £5 million. At the end of the season, he was promoted to the Bundesliga with Schalke, but the club did not activate the option due to financial reasons. On 2 July 2022, he returned to Germany and signed permanently with Bundesliga club Borussia Mönchengladbach on a €5,000,000 transfer fee.</s><s>International career. In May 2017, Itakura was called up to the Japan U-20 national team for the 2017 U-20 World Cup. At this tournament, he played 2 matches as defensive midfielder. He was selected for the senior Japan"
+        },
+        {
+          "title": "Ko Itakura",
+          "text": " national football team for 2019 Copa América and made his debut on 20 June 2019 in the game against Uruguay, as a starter. In November 2022, he was selected for the 2022 FIFA World Cup Japan National team for the first time. Participated in all group stage matches and became the first Asian team to win first place in an overseas World Cup group league, contributing to advance to the final tournament for two consecutive tournaments. His long ball was the starting point of the come-from-behind goal against Germany. He was also named in the first group stage best eleven by Spain's 'Marca' and Italy's version of 'Sky Sports'. The former named him one of the players to double his value in the World Cup and described him as \"the most consistent performance of the entire tournament\". On March 28, 2023, he served as captain for the first time in the second match of the second term of Moriyasu Japan against Colombia.</s><s>Career statistics.</s><s>Career statistics.:Club.</s><s>Career statistics.:International. \"Scores and results list Japan's goal tally first.\"</s><s>Honours. Kawasaki Frontale - J1 League: 2017 Vegalta Sendai - Emperor's Cup: 2018 Schalke 04"
+        },
+        {
+          "title": "Ko Itakura",
+          "text": " - 2. Bundesliga: 2021–22 Individual - TAG Heuer YOUNG GUNS AWARD: 2018 - Groningen player of the year: 2020/21 - Japan Pro-Footballers Association awards: Best XI (2022)</s>"
+        }
+      ]
+    },
+    {
+      "example_index": 78,
+      "fact": "The Taker trilogy is a novel by Katsu.",
+      "original_gold_label": "S",
+      "gold_label": "S",
+      "predicted_label": "NS",
+      "passages": [
+        {
+          "title": "Alma Katsu",
+          "text": "<s>Alma Katsu Alma Katsu (born 1959) is an American writer of adult fiction. Her books have been translated into over a dozen languages, and has been published in the United Kingdom, Brazil, Spain and Italy. Katsu has also had a 29-year career in the US federal government working in a number of positions dealing with intelligence and foreign policy, with an emphasis on technology issues. She previously worked as a senior policy analyst for the RAND Corporation.</s><s>Biography. Katsu was born in Fairbanks, Alaska, the daughter of an American-born father and a Japanese-born mother. She spent the majority of her youth living near Concord, Massachusetts, to which she attributes her interest in the early American history featured in her novels. She attended Brandeis University (BA in literature and writing, 1981) where she studied with novelist John Irving and children's book author Margaret Rey, and the Johns Hopkins University (MA in Fiction, 2004). She is also an alumna of the Squaw Valley writers workshops.</s><s>Career. Katsu's writing has received praise for its quality and ability to create authentic and realistic settings. She published her first novel, \"The Taker,\" in 2011 through Gallery Books. It received praise from outlets such"
+        },
+        {
+          "title": "Alma Katsu",
+          "text": "'s Scribe\", Gallery Books, 2012 (ASIN B006VFZPNU) - \"Pipefitter's Union\", in anthology \"Enhanced Gravity\", Paycock Press ()</s><s>Awards. \"The Taker\" was named one of the ten best debut novels of 2011 by \"Booklist\" magazine, the publication of the American Library Association. The second novel, \"The Reckoning\", was nominated for several year-end awards including Goodreads Readers Choice Award for best paranormal fantasy and RT Book Reviews Reviewers Choice Award for best paranormal romance. \"The Deep\" was a finalist for the Bram Stoker Award for Superior Achievement in a Novel and a finalist for the Locus Award for Best Horror Novel.</s>"
+        },
+        {
+          "title": "Alma Katsu",
+          "text": " as \"Booklist\" and \"The Washington Post\" and was recognized as one of the ten best debut novels of the year by the American Library Association. Described as a literary take on the Faustian bargain, \"The Taker Trilogy\" tells the story of a young woman who has been given eternal life but comes to see this condition as a punishment for evil acts she perpetrated in life and is now condemned to revisit until the end of time.</s><s>Personal life. She lives in the Washington, DC area with her husband, musician Bruce Katsu.</s><s>Bibliography.</s><s>Bibliography.:Taker trilogy. - \"The Taker\", Gallery Books, 2011 () - \"The Reckoning\", Gallery Books, 2012 () - \"The Descent\", Gallery Books, 2014 ()</s><s>Bibliography.:Standalone novels. - \"The Hunger\", Transworld, March 2018 () - \"The Deep\", Transworld, March 2020 () - \"Red Widow\", G.P. Putnam's Sons, March 2021 ()</s><s>Bibliography.:Short stories. - \"The Witch Sisters,\" 2013 (ASIN B008N1YHPM) - \"The Marriage Price\", 2012 (ASIN B00B0QITYC) - \"The Devil"
+        }
+      ]
+    },
+    {
+      "example_index": 79,
+      "fact": "The Hunger is a novel by Katsu.",
+      "original_gold_label": "S",
+      "gold_label": "S",
+      "predicted_label": "NS",
+      "passages": [
+        {
+          "title": "Alma Katsu",
+          "text": "<s>Alma Katsu Alma Katsu (born 1959) is an American writer of adult fiction. Her books have been translated into over a dozen languages, and has been published in the United Kingdom, Brazil, Spain and Italy. Katsu has also had a 29-year career in the US federal government working in a number of positions dealing with intelligence and foreign policy, with an emphasis on technology issues. She previously worked as a senior policy analyst for the RAND Corporation.</s><s>Biography. Katsu was born in Fairbanks, Alaska, the daughter of an American-born father and a Japanese-born mother. She spent the majority of her youth living near Concord, Massachusetts, to which she attributes her interest in the early American history featured in her novels. She attended Brandeis University (BA in literature and writing, 1981) where she studied with novelist John Irving and children's book author Margaret Rey, and the Johns Hopkins University (MA in Fiction, 2004). She is also an alumna of the Squaw Valley writers workshops.</s><s>Career. Katsu's writing has received praise for its quality and ability to create authentic and realistic settings. She published her first novel, \"The Taker,\" in 2011 through Gallery Books. It received praise from outlets such"
+        },
+        {
+          "title": "Alma Katsu",
+          "text": "'s Scribe\", Gallery Books, 2012 (ASIN B006VFZPNU) - \"Pipefitter's Union\", in anthology \"Enhanced Gravity\", Paycock Press ()</s><s>Awards. \"The Taker\" was named one of the ten best debut novels of 2011 by \"Booklist\" magazine, the publication of the American Library Association. The second novel, \"The Reckoning\", was nominated for several year-end awards including Goodreads Readers Choice Award for best paranormal fantasy and RT Book Reviews Reviewers Choice Award for best paranormal romance. \"The Deep\" was a finalist for the Bram Stoker Award for Superior Achievement in a Novel and a finalist for the Locus Award for Best Horror Novel.</s>"
+        },
+        {
+          "title": "Alma Katsu",
+          "text": " as \"Booklist\" and \"The Washington Post\" and was recognized as one of the ten best debut novels of the year by the American Library Association. Described as a literary take on the Faustian bargain, \"The Taker Trilogy\" tells the story of a young woman who has been given eternal life but comes to see this condition as a punishment for evil acts she perpetrated in life and is now condemned to revisit until the end of time.</s><s>Personal life. She lives in the Washington, DC area with her husband, musician Bruce Katsu.</s><s>Bibliography.</s><s>Bibliography.:Taker trilogy. - \"The Taker\", Gallery Books, 2011 () - \"The Reckoning\", Gallery Books, 2012 () - \"The Descent\", Gallery Books, 2014 ()</s><s>Bibliography.:Standalone novels. - \"The Hunger\", Transworld, March 2018 () - \"The Deep\", Transworld, March 2020 () - \"Red Widow\", G.P. Putnam's Sons, March 2021 ()</s><s>Bibliography.:Short stories. - \"The Witch Sisters,\" 2013 (ASIN B008N1YHPM) - \"The Marriage Price\", 2012 (ASIN B00B0QITYC) - \"The Devil"
+        }
+      ]
+    },
+    {
+      "example_index": 80,
+      "fact": "The Deep is a novel by Katsu.",
+      "original_gold_label": "S",
+      "gold_label": "S",
+      "predicted_label": "NS",
+      "passages": [
+        {
+          "title": "Alma Katsu",
+          "text": "<s>Alma Katsu Alma Katsu (born 1959) is an American writer of adult fiction. Her books have been translated into over a dozen languages, and has been published in the United Kingdom, Brazil, Spain and Italy. Katsu has also had a 29-year career in the US federal government working in a number of positions dealing with intelligence and foreign policy, with an emphasis on technology issues. She previously worked as a senior policy analyst for the RAND Corporation.</s><s>Biography. Katsu was born in Fairbanks, Alaska, the daughter of an American-born father and a Japanese-born mother. She spent the majority of her youth living near Concord, Massachusetts, to which she attributes her interest in the early American history featured in her novels. She attended Brandeis University (BA in literature and writing, 1981) where she studied with novelist John Irving and children's book author Margaret Rey, and the Johns Hopkins University (MA in Fiction, 2004). She is also an alumna of the Squaw Valley writers workshops.</s><s>Career. Katsu's writing has received praise for its quality and ability to create authentic and realistic settings. She published her first novel, \"The Taker,\" in 2011 through Gallery Books. It received praise from outlets such"
+        },
+        {
+          "title": "Alma Katsu",
+          "text": "'s Scribe\", Gallery Books, 2012 (ASIN B006VFZPNU) - \"Pipefitter's Union\", in anthology \"Enhanced Gravity\", Paycock Press ()</s><s>Awards. \"The Taker\" was named one of the ten best debut novels of 2011 by \"Booklist\" magazine, the publication of the American Library Association. The second novel, \"The Reckoning\", was nominated for several year-end awards including Goodreads Readers Choice Award for best paranormal fantasy and RT Book Reviews Reviewers Choice Award for best paranormal romance. \"The Deep\" was a finalist for the Bram Stoker Award for Superior Achievement in a Novel and a finalist for the Locus Award for Best Horror Novel.</s>"
+        },
+        {
+          "title": "Alma Katsu",
+          "text": " as \"Booklist\" and \"The Washington Post\" and was recognized as one of the ten best debut novels of the year by the American Library Association. Described as a literary take on the Faustian bargain, \"The Taker Trilogy\" tells the story of a young woman who has been given eternal life but comes to see this condition as a punishment for evil acts she perpetrated in life and is now condemned to revisit until the end of time.</s><s>Personal life. She lives in the Washington, DC area with her husband, musician Bruce Katsu.</s><s>Bibliography.</s><s>Bibliography.:Taker trilogy. - \"The Taker\", Gallery Books, 2011 () - \"The Reckoning\", Gallery Books, 2012 () - \"The Descent\", Gallery Books, 2014 ()</s><s>Bibliography.:Standalone novels. - \"The Hunger\", Transworld, March 2018 () - \"The Deep\", Transworld, March 2020 () - \"Red Widow\", G.P. Putnam's Sons, March 2021 ()</s><s>Bibliography.:Short stories. - \"The Witch Sisters,\" 2013 (ASIN B008N1YHPM) - \"The Marriage Price\", 2012 (ASIN B00B0QITYC) - \"The Devil"
+        }
+      ]
+    },
+    {
+      "example_index": 81,
+      "fact": "Red Widow is a novel by Katsu.",
+      "original_gold_label": "S",
+      "gold_label": "S",
+      "predicted_label": "NS",
+      "passages": [
+        {
+          "title": "Alma Katsu",
+          "text": "<s>Alma Katsu Alma Katsu (born 1959) is an American writer of adult fiction. Her books have been translated into over a dozen languages, and has been published in the United Kingdom, Brazil, Spain and Italy. Katsu has also had a 29-year career in the US federal government working in a number of positions dealing with intelligence and foreign policy, with an emphasis on technology issues. She previously worked as a senior policy analyst for the RAND Corporation.</s><s>Biography. Katsu was born in Fairbanks, Alaska, the daughter of an American-born father and a Japanese-born mother. She spent the majority of her youth living near Concord, Massachusetts, to which she attributes her interest in the early American history featured in her novels. She attended Brandeis University (BA in literature and writing, 1981) where she studied with novelist John Irving and children's book author Margaret Rey, and the Johns Hopkins University (MA in Fiction, 2004). She is also an alumna of the Squaw Valley writers workshops.</s><s>Career. Katsu's writing has received praise for its quality and ability to create authentic and realistic settings. She published her first novel, \"The Taker,\" in 2011 through Gallery Books. It received praise from outlets such"
+        },
+        {
+          "title": "Alma Katsu",
+          "text": " as \"Booklist\" and \"The Washington Post\" and was recognized as one of the ten best debut novels of the year by the American Library Association. Described as a literary take on the Faustian bargain, \"The Taker Trilogy\" tells the story of a young woman who has been given eternal life but comes to see this condition as a punishment for evil acts she perpetrated in life and is now condemned to revisit until the end of time.</s><s>Personal life. She lives in the Washington, DC area with her husband, musician Bruce Katsu.</s><s>Bibliography.</s><s>Bibliography.:Taker trilogy. - \"The Taker\", Gallery Books, 2011 () - \"The Reckoning\", Gallery Books, 2012 () - \"The Descent\", Gallery Books, 2014 ()</s><s>Bibliography.:Standalone novels. - \"The Hunger\", Transworld, March 2018 () - \"The Deep\", Transworld, March 2020 () - \"Red Widow\", G.P. Putnam's Sons, March 2021 ()</s><s>Bibliography.:Short stories. - \"The Witch Sisters,\" 2013 (ASIN B008N1YHPM) - \"The Marriage Price\", 2012 (ASIN B00B0QITYC) - \"The Devil"
+        },
+        {
+          "title": "Alma Katsu",
+          "text": "'s Scribe\", Gallery Books, 2012 (ASIN B006VFZPNU) - \"Pipefitter's Union\", in anthology \"Enhanced Gravity\", Paycock Press ()</s><s>Awards. \"The Taker\" was named one of the ten best debut novels of 2011 by \"Booklist\" magazine, the publication of the American Library Association. The second novel, \"The Reckoning\", was nominated for several year-end awards including Goodreads Readers Choice Award for best paranormal fantasy and RT Book Reviews Reviewers Choice Award for best paranormal romance. \"The Deep\" was a finalist for the Bram Stoker Award for Superior Achievement in a Novel and a finalist for the Locus Award for Best Horror Novel.</s>"
+        }
+      ]
+    },
+    {
+      "example_index": 117,
+      "fact": "Don Featherstone was born in 1936.",
+      "original_gold_label": "S",
+      "gold_label": "S",
+      "predicted_label": "NS",
+      "passages": [
+        {
+          "title": "Don Featherstone (artist)",
+          "text": "<s>Don Featherstone (artist) Donald Featherstone (January 25, 1936 – June 22, 2015) was an American artist most widely known for his 1957 creation of the plastic pink flamingo while working for Union Products. Featherstone resided in Fitchburg, Massachusetts, where he kept 57 plastic flamingos on his back lawn. Featherstone and his wife Nancy dressed alike for over 35 years.</s><s>Biography. Featherstone was born in Worcester, Massachusetts, in 1936 and grew up in nearby Berlin. After graduating from the Worcester Art Museum's art school, in 1957, he was offered a job designing three-dimensional animals for Union Products, Inc. Over his years at Union Products, Featherstone sculpted over 750 different items, the first two of which were a girl with a water can and a boy with a dog. When Featherstone was asked in 1957 to sculpt a duck, he purchased one, which he named Charlie, and later released the bird in Coggshall Park. Later that year, he was asked to carve a flamingo. The now iconic pink flamingo went on sale in 1958, when the color pink was popular. In 1996, Featherstone was awarded the 1996 Ig Nobel Art Prize for his creation of the pink flamingo, and he also"
+        },
+        {
+          "title": "Don Featherstone (artist)",
+          "text": " began his tenure as president of Union Products, which he held until he retired in 2000. On June 22, 2015, Featherstone died from Lewy body dementia at the age of 79. Visitors often leave pink flamingos of their own on the lawn around his grave.</s><s>Pink flamingo. Featherstone based his creation on photographs of flamingos from National Geographic, as he was not able to obtain real flamingos to use as models. As time went on, the plastic flamingo became more popular. They appeared across the country and even as parts of various art exhibits. In 1987, Donald Featherstone inscribed his signature in the original plastic mold. This was apparently to help distinguish between original and \"knock-off\" pink plastic flamingos. Featherstone's signature stayed on the bird until 2001, when it was removed. The signature was quickly replaced because of a small boycott of the unsigned birds. In November 2006, Union Products closed and production of the flamingo stopped. Shortly thereafter, a New York company purchased the molds for Featherstone's flamingos and subcontracted production to a Fitchburg company, Cado Products. In 2010, Cado Products purchased the copyrights and plastic molds for the pink flamingos and continues to manufacture them. They"
+        },
+        {
+          "title": "Don Featherstone (artist)",
+          "text": " are generally sold in sets of two—one holding its head erect, nearly high, the other bending over as if looking for food.</s>"
+        }
+      ]
+    },
+    {
+      "example_index": 142,
+      "fact": "She was born on July 18, 1987.",
+      "original_gold_label": "S",
+      "gold_label": "S",
+      "predicted_label": "NS",
+      "passages": [
+        {
+          "title": "Jessica Barboza",
+          "text": "<s>Jessica Barboza Jessica Cristina Barboza Schmidt (born in Maracaibo, Venezuela on 14 August 1987) is a Venezuelan model and beauty pageant titleholder who won the titles of Miss Earth Venezuela 2009 and Miss International Venezuela 2010.</s><s>Sambil Model / Miss Earth Venezuela. Barboza won in 2009 the Sambil Model / Miss Earth Venezuela title in a pageant held in Margarita Island, Venezuela on June 12, 2009. She was crowned by the outgoing titleholder, María Daniela Torrealba, Sambil Model / Miss Earth Venezuela 2008. She also competed in Miss Earth Venezuela 2006 but didn't place.</s><s>Miss Earth. As the official representative of her country to the 2009 Miss Earth pageant held in Boracay, Philippines, on November 22, 2009, Barboza competed against 79 other delegates and was designated 2nd runner-up.</s><s>Miss Venezuela. Barboza competed in 2010 as Miss Distrito Capital in her country's national beauty pageant, Miss Venezuela, obtaining the title of \"Miss International Venezuela\" on October 28, 2010.</s><s>Miss International. She represented Venezuela in the 2011 Miss International pageant in Chengdu, China in November 6, 2011. During the Miss International 2011 final, Jessica Bar"
+        },
+        {
+          "title": "Jessica Barboza",
+          "text": "boza was announced as the 1st Runner-Up.</s><s>Personal life. She currently resides in Panama with her husband Federico Pauls, with whom she has three children: Benjamín and twins Olivia and Chloé.</s>"
+        }
+      ]
+    }
+  ]
+}

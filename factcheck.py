@@ -37,7 +37,7 @@ class EntailmentModel(object):
         with torch.no_grad():
             
             # Tokenize the premise and hypothesis
-            inputs = self.tokenizer(premise, hypothesis, return_tensors='pt', truncation=True, padding=True)
+            inputs = self.tokenizer(premise, hypothesis, return_tensors='pt', truncation=True, padding=True, max_length=512)
             if self.cuda:
                 inputs = {key: value.to('cuda') for key, value in inputs.items()}
             # Get the model's prediction
@@ -136,7 +136,7 @@ class WordRecallThresholdFactChecker(FactChecker):
 
 
 class EntailmentFactChecker(FactChecker):
-    def __init__(self, ent_model, threshold=0.2):
+    def __init__(self, ent_model, threshold=0.20):
         self.ent_model = ent_model
         self.threshold = threshold
 
@@ -145,17 +145,19 @@ class EntailmentFactChecker(FactChecker):
         if not passages:
             return "NS"
 
-        best_score = -1.0
+        best_score = 0.0
 
         for passage in passages:
             premise = passage["text"]
             hypothesis = fact
-            entailment, neutral, contradiction = self.ent_model.check_entailment(premise, hypothesis)
+
+            entailment, neutral, contradiction = (self.ent_model.check_entailment(premise, hypothesis))
 
             # Compare entailment against the strongest alternative
-            score = entailment
+            score = entailment - max(neutral, contradiction)
 
-            best_score = max(best_score, score)
+            ## Use the entailment probability only
+            best_score = max(best_score, entailment)
 
         if best_score >= self.threshold:
             return "S"
