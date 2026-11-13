@@ -136,9 +136,10 @@ class WordRecallThresholdFactChecker(FactChecker):
 
 
 class EntailmentFactChecker(FactChecker):
-    def __init__(self, ent_model, threshold=0.20):
+
+    def __init__(self, ent_model):
         self.ent_model = ent_model
-        self.threshold = threshold
+        self.threshold = 0.26
 
     def predict(self, fact: str, passages: List[dict]) -> str:
 
@@ -148,15 +149,28 @@ class EntailmentFactChecker(FactChecker):
         best_score = 0.0
 
         for passage in passages:
-            premise = passage["text"]
-            hypothesis = fact
 
-            entailment, neutral, contradiction = (self.ent_model.check_entailment(premise, hypothesis))
+            text = passage["text"]
+            text = text.replace("<s>", "").replace("</s>", "")
 
-            
-            ## Use the entailment probability only
-            best_score = max(best_score, entailment)
-        
+            sentences = re.split(r'(?<=[.!?])\s+', text)
+            sentences = [s.strip() for s in sentences if s.strip()]
+
+            for size in [1, 2, 3]:
+
+                for i in range(len(sentences) - size + 1):
+
+                    premise = " ".join(sentences[i:i + size])
+
+                    score = self.ent_model.check_entailment(
+                        premise, fact
+                    )[0]
+
+                    best_score = max(best_score, score)
+
+                    if best_score >= 0.95:
+                        return "S"
+
         return "S" if best_score >= self.threshold else "NS"
 
 # OPTIONAL
