@@ -153,25 +153,40 @@ class EntailmentFactChecker(FactChecker):
 
             entailment, neutral, contradiction = (self.ent_model.check_entailment(premise, hypothesis))
 
-            # Compare entailment against the strongest alternative
-            score = entailment - max(neutral, contradiction)
-
+            
             ## Use the entailment probability only
             best_score = max(best_score, entailment)
-
-        if best_score >= self.threshold:
-            return "S"
-
-        return "NS"
-
+        
+        return "S" if best_score >= self.threshold else "NS"
 
 # OPTIONAL
 class DependencyRecallThresholdFactChecker(FactChecker):
-    def __init__(self):
+    def __init__(self, threshold=0.50):
         self.nlp = spacy.load('en_core_web_sm')
+        self.threshold = threshold
 
     def predict(self, fact: str, passages: List[dict]) -> str:
-        raise Exception("Implement me")
+        fact_dependencies = self.get_dependencies(fact)
+
+        if not fact_dependencies:
+            return "NS"
+
+        best_score = 0.0
+
+        for passage in passages:
+
+            passage_dependencies = self.get_dependencies(
+                passage["text"]
+            )
+
+            overlap = fact_dependencies.intersection(
+                passage_dependencies
+            )
+
+            score = len(overlap) / len(fact_dependencies)
+            best_score = max(best_score, score)
+
+        return "S" if best_score >= self.threshold else "NS"
 
     def get_dependencies(self, sent: str):
         """
@@ -185,13 +200,18 @@ class DependencyRecallThresholdFactChecker(FactChecker):
         # Runs the spaCy tagger
         processed_sent = self.nlp(sent)
         relations = set()
+
+        ignore_dep = [
+            "punct", "ROOT", "root", "det",
+            "case", "aux", "auxpass", "dep",
+            "cop", "mark"
+        ]
+
         for token in processed_sent:
-            ignore_dep = ['punct', 'ROOT', 'root', 'det', 'case', 'aux', 'auxpass', 'dep', 'cop', 'mark']
             if token.is_punct or token.dep_ in ignore_dep:
                 continue
             # Simplify the relation to its basic form (root verb form for verbs)
-            head = token.head.lemma_ if token.head.pos_ == 'VERB' else token.head.text
-            dependent = token.lemma_ if token.pos_ == 'VERB' else token.text
-            relation = (head, token.dep_, dependent)
-            relations.add(relation)
+            head = (token.head.lemma_ if token.head.pos_ == 'VERB' else token.head.lemma_.lower())
+            dependent = (token.lemma_ if token.pos_ == 'VERB' else token.lemma_.lower())
+            relations.add((head, token.dep_, dependent))
         return relations
